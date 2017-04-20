@@ -118,7 +118,7 @@ namespace WpfToDo
             }
             catch
             {
-                throw new Exception();
+                throw new DriveNotFoundException();
             }
             finally
             {
@@ -141,7 +141,7 @@ namespace WpfToDo
                 }
                 catch
                 {
-                    throw new Exception();
+                    throw new FileNotFoundException();
                 }
                 finally
                 {
